@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/">Home</li></a>
+            <li><a href="/intro.html">Introduction</li></a>
+            <li><a href="/education.html">Education</li></a>
+            <li><a href="/contact.html">Contact</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <img class="ham" src="ham.jpg" alt="" width="23px">
+        <form action="form.php">
+           <div class="contact-title"> Contact Form</div>
+            <div class="contactform">
+                <table >
+                    <tr><td><label for="name">Name</label><input type="text" placeholder="Enter your Name Here" id="name"></td></tr>
+          <tr><td> <label for="email">Email-Id</label> <input type="text" placeholder="Enter Your Email Id"></td></tr>
+         <tr><td><label for="number">Phone Number</label><input type="number" placeholder="Enter Your Phone Number"></td></tr>
+               </table>
+               <div class="buttons">
+              <input type="submit" value="Submit" class="button" >
+              <input type="button" value="Clear" class="button"></div>
+            </form>
+        </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

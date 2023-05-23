@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sacramento&family=Source+Code+Pro:wght@300&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(216, 212, 212);
+width:300px;
+font-family: Oswald, sans-serif;
+height:100vh;
+transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+ padding:57px;
+ height:100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:30px;
+    padding:19px 0;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+
+}
+    .main{
+        /* background-color:yellow; */
+        width:80vw;
+    }
+    .container{
+        display:flex;
+
+    }
+    .information{
+        /* background-color: rgb(224, 45, 224); */
+        height:58vh;
+        width:64vw;
+        margin: 50px auto;
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .devinfo{
+        display:flex;
+      justify-content: center;
+        flex-direction: column;
+        font-family:'source code pro',monospace;
+    }
+    .hello{
+      font-size:60px;
+
+    }
+    .name{
+font-size:35px;
+font-weight:bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .about{
+ font-size:22px;
+ font-family:'source code pro' sans-serif;
+
+    }
+    .buttons{
+        margin-top:34px;
+       
+    }
+
+    .buttons button{
+
+  padding:9px 14px;
+  border-radius:20px;
+  color:white;
+  background-color:rgb(84,84,205);
+  font-weight:bold;
+  font-size: 15px;
+  margin:0 3px;
+  cursor:pointer;
+    }
+    .buttons button:hover{
+        background-color:white;
+        color:dodgerblue;
+    }
+    .devpic img{
+        height:58vh;
+        width:388px;}
+    .sidebargo{
+            transform:translate(-300px,0px);
+            position:absolute;
+        
+    }
+    .ham{
+        position:absolute;
+        top:5px;
+        left:9px;
+color:  rgb(216, 212, 212);
+cursor:pointer;
+    }
+
+  
+
+
+    

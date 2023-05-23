@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(216, 212, 212);
+width:300px;
+font-family: Oswald, sans-serif;
+height:100vh;
+transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+ padding:57px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:30px;
+    padding:19px 0;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+
+}
+
+    .container{
+        display:flex;
+    justify-content: center;}
+        .main{
+            /* background-color: yellowgreen; */
+            width:80vw;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .contactform{
+            /* background-color: blue; */
+            padding: left 46px;
+            margin-top:-76px;
+        }
+        .contact-title{
+            margin-left:157px;
+            font-weight: bolder;
+            text-decoration: underline;
+            padding-bottom:80px;
+            font-size:40px
+
+        }
+        label{
+            display:inline-block;
+            width:215px;
+            font-weight:bold;
+            font-size: larger;
+            }
+            
+            table{
+            width:586px;
+            margin:0px 32px;
+            font-family:oswald,sans-serif;
+
+            }
+            input{
+              margin:44px auto;
+              padding:10px;
+        
+            }
+            .button{
+         border-radius: 45px;
+         padding:11px 37px;
+         margin:6px 59px;
+         color: white;
+         background-color: rgb(82, 82, 230);
+         font-weight:bold;
+         font-size:15px;
+         cursor:pointer;
+            }
+            .button:hover{
+                color:rgb(82,82,230);
+                background-color: white;
+            
+            }
+            .sidebargo{
+                transform:translate(-300px,0px);
+            
+        }
+            .ham{
+                position:absolute;
+                top:5px;
+                left:9px;
+        color:  rgb(216, 212, 212);
+        cursor:pointer;
+            }
+           
+
+
+    
