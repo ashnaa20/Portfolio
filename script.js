@@ -1,5 +1,6 @@
-document.querySelector('.ham').addEventListener("click",()=>{
-    document.querySelector('.sidebar').classList.toggle('sidebargo');
-   (document.querySelector('.sidebar').classList.contains('.sidebargo'))
-    document.querySelector('.ham').style.display='inline'
-})
+function openNav(){
+    document.getElementById('sidebargo').style.width="250px";
+}
+function closeNav(){
+    document.getElementById('sidebargo').style.width="0px";
+}
