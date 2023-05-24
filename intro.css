@@ -5,10 +5,13 @@
 }
 .sidebar{
     background-color: rgb(216, 212, 212);
-width:300px;
+width:0px;
 font-family: Oswald, sans-serif;
 height:100vh;
-transition: transform 0.3s ease-in;
+overflow-x: hidden;
+overflow-y: hidden;
+z-index: 1;
+
 }
 .sidebar nav{
  padding:57px;
@@ -50,7 +53,6 @@ transition: transform 0.3s ease-in;
         /* background-color: palevioletred; */
         margin:50px;
         font-size:30px;
-        font-size:30px;
     }
     .sidebargo{
         transform:translate(-300px,0px);
@@ -63,5 +65,10 @@ transition: transform 0.3s ease-in;
         left:9px;
 color:  rgb(216, 212, 212);
 cursor:pointer;
+    }
+    .cross{
+        position:relative;
+        bottom:80px;
+        left:164px;
     }
     
