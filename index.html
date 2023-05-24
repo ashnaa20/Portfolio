@@ -6,9 +6,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar sidebargo">
+      <div class="sidebar" id="sidebargo">
         <nav>
           <ul>
+            <li class="cross"><a href="#" onclick="closeNav()">X</a></li>
             <li><a href="/">Home</li></a>
             <li><a href="/intro.html">Introduction</li></a>
             <li><a href="education.html">Education</li></a>
@@ -17,7 +18,7 @@
         </nav>
       </div>
       <div class="main">
-          <img class="ham" src="ham.jpg" alt="" width="23px">
+          <img class="ham" src="ham.jpg" alt="" width="23px" onclick="openNav()">
         <div class="information">
           <div class="devinfo">
             <div class="hello">Hi I am</div>
